@@ -10,6 +10,7 @@ int main()
     gasDetector.mode(PullDown);
 
     alarmLed = OFF;
+    printf( "%s\n" , "Hola, Carina" );
 
     while (true) {
         if ( gasDetector == ON ) {
